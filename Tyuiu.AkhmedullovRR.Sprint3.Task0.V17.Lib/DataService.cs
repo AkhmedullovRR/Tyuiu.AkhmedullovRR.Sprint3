@@ -12,7 +12,7 @@ namespace Tyuiu.AkhmedullovRR.Sprint3.Task0.V17.Lib
             {
                 sumSeries += Math.Cos(i) / 2;
             }
-
+             
             return Math.Round(sumSeries, 3);
         }
     } 
