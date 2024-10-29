@@ -11,7 +11,7 @@ namespace Tyuiu.AkhmedullovRR.Sprint3.Task0.V17.Lib
             for (i = startValue; i <= stopValue; i++)
             {
                 sumSeries += Math.Cos(i) / 2;
-            }
+            } 
               
             return Math.Round(sumSeries, 3);
         }
