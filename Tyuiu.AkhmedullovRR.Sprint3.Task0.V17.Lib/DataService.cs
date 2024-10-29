@@ -15,5 +15,5 @@ namespace Tyuiu.AkhmedullovRR.Sprint3.Task0.V17.Lib
 
             return Math.Round(sumSeries, 3);
         }
-    }
+    } 
 }
