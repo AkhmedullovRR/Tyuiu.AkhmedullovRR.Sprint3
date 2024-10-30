@@ -11,11 +11,12 @@ namespace Tyuiu.AkhmedullovRR.Sprint3.Task3.V4.Lib
     {
         public string DeleteCharInString(string value, char item)
         {
+            
             foreach (char c in value)
             {
                 if (c == item)
                 {
-                    value = value.Replace(item, ' ');
+                    value = value.Replace(item, '\0');
                 }
             }
             return value;
