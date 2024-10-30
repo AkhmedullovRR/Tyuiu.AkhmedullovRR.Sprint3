@@ -13,7 +13,7 @@ namespace Tyuiu.AkhmedullovRR.Sprint3.Task3.V4.Test
             DataService ds = new DataService();
             string str = "plkjjdw cvjkl";
             char c = 'j';
-            string wait = "plk  dw cv kl";
+            string wait = "plkdw cvkl";
             string res = ds.DeleteCharInString(str, c);
             Assert.AreEqual(wait, res);
 
