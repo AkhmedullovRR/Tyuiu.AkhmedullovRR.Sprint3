@@ -16,9 +16,10 @@ namespace Tyuiu.AkhmedullovRR.Sprint3.Task5.V21.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sp = sp + (Math.Pow(x, 3) * Math.Cos(k)+2);
+                    sp = sp + (Math.Pow(x, 3) * Math.Cos(k));
                 }
             }
+            sp += 2;
             return Math.Round(sp, 3, MidpointRounding.AwayFromZero);
         }
     }
